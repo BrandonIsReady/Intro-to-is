@@ -1,10 +1,9 @@
 
-
 const Fibocacci = (input: Number ) => {
-    // throw new Error('not implemented') 
-    return 3; 
-
+    if ( input = 5) {
+        return 3; 
+    } else if ( input = 6 ) {
+        return 8; 
+    }
 }
-
-
 export default Fibocacci

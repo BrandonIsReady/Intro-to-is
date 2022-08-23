@@ -27,11 +27,11 @@ describe('Fibonacci Test', () => {
     })
     it('when 13 - 20 return 21', () => {
         //Arrange 
-        const input = 8; 
-        const expected = 13; 
+        const input = 19; 
+        const expected = 21; 
 
         //Act 
-        const actual: number = Fibocacci(22);
+        const actual: number = Fibocacci(19);
 
         //Assert 
         expect(actual).toBe(expected); 
